@@ -1,0 +1,70 @@
+
+.manage-doctor-wrap{
+   
+
+    .wrap-select-textarea{
+        display: flex;
+        padding: 20px 20px 0px 20px;
+        .wrap-select-span{
+            width: 20%;
+            margin-right: 103px;
+            .css-2b097c-container{
+               
+            }
+        }
+        .wrap-textarea-span{
+            width: 73%;
+            display: flex;
+            span{
+                width: 12%;
+                height: 19px;
+            }
+            textarea{
+                width: 79%;
+                margin-bottom: 10px;
+
+
+            }
+           
+        }
+      
+      
+    }
+    .rc-md-editor {
+        padding: 22px !important;
+        background: #b78d8d !important;
+    
+    }
+    .btn-markdown{
+        background-color: #44d144;
+        border-radius: 10px;
+        height: 44px;
+        width: 100;
+        width: 13%;
+        margin: 20px 60px;
+        float: right;
+        color: #fff;
+       
+        font-size: 18px;
+        border: 1px solid #899689;
+        &:hover{
+            background-color: #057434;
+        }
+    }
+    .btn-markdown-update{
+        background-color: #e6bd19;
+        border-radius: 10px;
+        height: 44px;
+        width: 100;
+        width: 13%;
+        margin: 20px 60px;
+        float: right;
+        color: #fff;
+       
+        font-size: 18px;
+        border: 1px solid #899689;
+        &:hover{
+            background-color: #edf105;
+        }
+    }
+}

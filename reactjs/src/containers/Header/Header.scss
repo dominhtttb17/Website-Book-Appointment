@@ -1,0 +1,93 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    background-color: $colormain;
+    color: $common-text-color;
+    height: 40px;
+    position: relative;
+    .btn-logout {
+        color: $common-text-color;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+        &:hover {
+            background-color: darken($colormain, 5);
+        }
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+}
+.style-display-flex{
+    display: flex; 
+    width: 26%;
+    span{
+        padding-top: 12px;
+        text-align: center;
+        margin-right: 20px;
+        color: aquamarine;
+        width: 63%;
+
+
+    }
+}
+.right-content{
+    
+    display: flex;
+   
+    align-items: center;
+    margin-right: 5px;
+
+    .support{
+        padding: 5px;
+        cursor: pointer;
+        margin-right: 27px;
+        i{
+            margin-right: 5px;
+            color: #45c3d2;
+        }
+    }
+    .language-vi{
+        margin-right:5px;
+        padding: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        background-color: yellow;
+        color: #fff;
+        border-radius: 10px;
+        opacity: 0.6;
+
+        &.active{
+            background-color: red;
+            color: yellow;
+            opacity: 1;
+        }
+        &:hover{
+            background-color: red;
+            color: yellow;
+        }
+       
+    }
+    .language-en{
+        font-weight: 600;
+        padding: 10px;
+       
+            background-color: yellow;
+            color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        opacity: 0.6;
+        &:hover{
+            background-color: red;
+            color: rgb(136, 136, 235);
+         }
+        &.active{
+            background-color: red;
+            color: rgb(136, 136, 235);
+            opacity: 1;
+        }
+    }
+}

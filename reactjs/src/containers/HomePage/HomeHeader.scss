@@ -1,0 +1,219 @@
+.home-header-container{
+    height: 78px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 0 10%;
+    z-index: 1141;
+
+    .home-header-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+      
+
+        .left-content{
+            width: 25%;
+            display: flex;
+            align-items: center;
+            position: relative;
+            .header-logo{
+                background: url('../../assets/Medical-logo.png') center center no-repeat;
+                cursor: pointer;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 49%;
+                height: 98%;
+                right: 63px;
+                background-size: 100% 100%;
+
+
+               
+               
+            }
+            i{
+                font-size: 25px;
+                color: gray;
+                position: absolute;
+                left: 52px;
+                padding: 8px;
+                cursor: pointer;
+            }
+        }
+        .center-content{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .child-content{
+                .subs-title{
+                    font-weight: lighter;
+                    font-size: 10px;
+                }
+                div b {
+                    font-size: 12px;
+                }
+            }
+        }
+        .right-content{
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .support{
+                padding: 5px;
+                cursor: pointer;
+                margin-right: 27px;
+                i{
+                    margin-right: 5px;
+                    color: #45c3d2;
+                }
+            }
+            .language-vi{
+                margin-right:5px;
+                padding: 10px;
+                cursor: pointer;
+                font-weight: 600;
+                background-color: yellow;
+                color: #fff;
+                border-radius: 10px;
+                &.active{
+                    background-color: red;
+                    color: yellow;
+                }
+                &:hover{
+                    background-color: red;
+                    color: yellow;
+                }
+               
+            }
+            .language-en{
+                font-weight: 600;
+                padding: 10px;
+               
+                    background-color: yellow;
+                    color: white;
+                border-radius: 10px;
+                cursor: pointer;
+                &:hover{
+                    background-color: red;
+                    color: rgb(136, 136, 235);
+                 }
+                &.active{
+                    background-color: red;
+                    color: rgb(136, 136, 235);
+                }
+            }
+        }
+    }
+
+}
+.home-header-banner{
+    background-image: url('../../assets/Ban-giam-doc-BV-Nhan-dan-1152.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60rem;
+    box-shadow: 0 0 479px 8px white inset;
+    
+    
+    .content-up{
+
+        padding-top: 113px;
+    .title1{
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px #333;
+        margin-bottom: 5px;
+        color: #fff;
+        font-weight: 400;
+       
+
+    }
+    .title2{
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px #333;
+        color: #fff;
+        font-weight: bold;
+    }
+    .search{
+        
+        
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        width: 400px;
+        padding: 5px;
+        border-radius: 25px;
+        background-color: #f7d800;
+        margin-top: 20px;
+        .vitri{
+           
+            
+        }
+        input{
+            width: 85%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            padding: 10px 0;
+            margin-left: 10px;
+           
+        }
+       }
+    }
+    .content-down{
+        height: calc(100% - 228.6px);
+       
+        position: relative;
+        .options{
+            position: absolute;
+            left: 0;
+            bottom: 236px;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 101px;
+     
+           .option-child{
+            height: 112px;
+            width: 112px;
+           
+            &:hover{
+                color: aqua;
+                cursor: pointer;
+            }
+
+            text-align: center;
+            .icon-child{
+                background-image: url('../../assets/161905-iconkham-chuyen-khoa.png');
+                background-position: center;
+                background-size: 30px;
+                background-repeat: no-repeat;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background-color: #fff;
+                margin: 0 auto;
+               
+               
+            }
+            .text-child{
+                   font-size: 16px;
+                   font-weight: 600;
+                   color: 
+                   #474250;
+                   &:hover{
+                    color: #45c3d2;
+                    
+                }
+            }
+           }
+        }
+    }
+
+    
+}

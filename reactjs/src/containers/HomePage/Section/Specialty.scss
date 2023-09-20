@@ -1,0 +1,21 @@
+
+  .img-customize-1{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 158px;
+    width: 268px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .slick-disabled{
+    display: none !important;
+  }
+  .text-image{
+    font-size: 20px;
+    &:hover{
+      color: rgb(71, 204, 204);
+    }
+  }

@@ -1,0 +1,29 @@
+
+
+.img-customize-3{
+    // background-image: url('../../../assets/specialty/155650-gs-ha-van-quyet.jpg');
+    background-position: center;
+    // background-repeat: no-repeat;
+    background-repeat: unset;
+
+    background-size: contain;
+    border-radius: 50%;
+
+    height: 120px;
+    width: 120px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .margin-image-3{
+    text-align: -webkit-center;
+
+  }
+  .slick-disabled{
+    display: none !important;
+  }
+  .text-image{
+    &:hover{
+      cursor: pointer;
+    }
+  }
